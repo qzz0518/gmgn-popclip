@@ -6,7 +6,7 @@
             "title": "Token",
             "icon": "link",
             "requirements": ["text"],
-            "regex": "^0x[a-fA-F0-9]{40}$",
+            "regex": "0x[a-fA-F0-9]{40}",
             "after": "open-url",
             "url": "https://gmgn.ai/eth/token/{popclip text}"
         },
@@ -14,7 +14,7 @@
             "title": "Token",
             "icon": "link",
             "requirements": ["text"],
-            "regex": "^[1-9A-HJ-NP-Za-km-z]{32,44}$",
+            "regex": "[1-9A-HJ-NP-Za-km-z]{32,44}",
             "after": "open-url",
             "url": "https://gmgn.ai/sol/token/{popclip text}"
         },
@@ -22,7 +22,7 @@
             "title": "Wallet",
             "icon": "link",
             "requirements": ["text"],
-            "regex": "^0x[a-fA-F0-9]{40}$",
+            "regex": "0x[a-fA-F0-9]{40}",
             "after": "open-url",
             "url": "https://gmgn.ai/eth/address/{popclip text}"
         },
@@ -30,7 +30,7 @@
             "title": "Wallet",
             "icon": "link",
             "requirements": ["text"],
-            "regex": "^[1-9A-HJ-NP-Za-km-z]{32,44}$",
+            "regex": "[1-9A-HJ-NP-Za-km-z]{32,44}",
             "after": "open-url",
             "url": "https://gmgn.ai/sol/address/{popclip text}"
         },
@@ -38,7 +38,7 @@
             "title": "Debank",
             "icon": "link",
             "requirements": ["text"],
-            "regex": "^0x[a-fA-F0-9]{40}$",
+            "regex": "0x[a-fA-F0-9]{40}",
             "after": "open-url",
             "url": "https://debank.com/profile/{popclip text}"
         }
